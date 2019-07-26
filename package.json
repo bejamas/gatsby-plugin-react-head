@@ -1,0 +1,50 @@
+{
+  "name": "gatsby-plugin-react-head",
+  "description": "Manage document head data with react-head. Provides drop-in server rendering support for Gatsby.",
+  "version": "0.0.0",
+  "author": "Thom Krupa <thom@bejamas.io>",
+  "bugs": {
+    "url": "https://github.com/bejamas/gatsby-plugin-react-head/issues"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "babel-preset-gatsby-package": "^0.2.2",
+    "cross-env": "^5.1.4"
+  },
+  "homepage": "https://github.com/bejamas/gatsby-plugin-react-head#readme",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "react-head",
+    "seo",
+    "document",
+    "head",
+    "title",
+    "meta",
+    "link",
+    "style",
+    "og"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "gatsby": "^2.0.0",
+    "react-head": "^3.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bejamas/gatsby-plugin-react-head.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir . --ignore **/__tests__,**/__mocks__",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir . --ignore **/__tests__,**/__mocks__"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
