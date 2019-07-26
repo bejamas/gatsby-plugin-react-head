@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-react-head",
   "description": "Manage document head data with react-head. Provides drop-in server rendering support for Gatsby.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Thom Krupa <thom@bejamas.io>",
   "bugs": {
     "url": "https://github.com/bejamas/gatsby-plugin-react-head/issues"
