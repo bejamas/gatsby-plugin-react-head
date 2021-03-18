@@ -7,13 +7,13 @@
     "url": "https://github.com/bejamas/gatsby-plugin-react-head/issues"
   },
   "dependencies": {
-    "@babel/runtime": "^7.0.0"
+    "@babel/runtime": "^7.13.10"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "babel-preset-gatsby-package": "^0.2.2",
-    "cross-env": "^5.1.4"
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "babel-preset-gatsby-package": "^1.1.0",
+    "cross-env": "^7.0.3"
   },
   "homepage": "https://github.com/bejamas/gatsby-plugin-react-head#readme",
   "keywords": [
@@ -32,8 +32,8 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "gatsby": "^2.0.0",
-    "react-head": "^3.1.1"
+    "gatsby": "^3.1.0",
+    "react-head": "^3.4.0"
   },
   "repository": {
     "type": "git",
